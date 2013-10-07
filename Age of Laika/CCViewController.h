@@ -10,4 +10,13 @@
 
 @interface CCViewController : UIViewController
 
+/* IBOutlets are references to view objects in our storyboard */
+@property (strong, nonatomic) IBOutlet UILabel *yearsLabel;
+@property (strong, nonatomic) IBOutlet UITextField *yearsTextField;
+@property (strong, nonatomic) IBOutlet UILabel *realYearsLabel;
+
+/*IBAction is a way for our view object to send a message to our Controller that the button was tapped.*/
+- (IBAction)convertToDogYearsButtonPressed:(UIButton *)sender;
+- (IBAction)convertToRealDogYearsButtonPressed:(UIButton *)sender;
+
 @end

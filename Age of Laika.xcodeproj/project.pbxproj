@@ -21,6 +21,7 @@
 		6F46D2EE17F2313D009D39EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F46D2D017F2313C009D39EA /* UIKit.framework */; };
 		6F46D2F617F2313D009D39EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F46D2F417F2313D009D39EA /* InfoPlist.strings */; };
 		6F46D2F817F2313D009D39EA /* Age_of_LaikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F46D2F717F2313D009D39EA /* Age_of_LaikaTests.m */; };
+		6F46D30217F23156009D39EA /* Laika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F46D30117F23156009D39EA /* Laika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6F46D2F317F2313D009D39EA /* Age of LaikaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Age of LaikaTests-Info.plist"; sourceTree = "<group>"; };
 		6F46D2F517F2313D009D39EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F46D2F717F2313D009D39EA /* Age_of_LaikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Age_of_LaikaTests.m; sourceTree = "<group>"; };
+		6F46D30117F23156009D39EA /* Laika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Laika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		6F46D2D317F2313D009D39EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6F46D30117F23156009D39EA /* Laika.jpg */,
 				6F46D2D417F2313D009D39EA /* Age of Laika-Info.plist */,
 				6F46D2D517F2313D009D39EA /* InfoPlist.strings */,
 				6F46D2D817F2313D009D39EA /* main.m */,
@@ -231,6 +234,7 @@
 			files = (
 				6F46D2E517F2313D009D39EA /* Images.xcassets in Resources */,
 				6F46D2D717F2313D009D39EA /* InfoPlist.strings in Resources */,
+				6F46D30217F23156009D39EA /* Laika.jpg in Resources */,
 				6F46D2E017F2313D009D39EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
